@@ -1,0 +1,26 @@
+Q1. What are the data types in Java? Java has two types of data
+types:
+1.​ Primitive Data Types: These include byte, short, int, long, float, double,
+char, and boolean. They store simple values and are not objects.
+2.​ Non-Primitive Data Types: These include String, Array, Class, and
+Interface. They are derived from primitive data types and provide
+more functionalities.
+
+Q2. What are wrapper classes?
+Wrapper classes provide an object representation of primitive data types,
+such as Integers, Doubles, and Booleans. These classes allow primitives to be
+used in collections and provide useful utility methods.
+
+Q3. Are there dynamic arrays in Java?
+Java arrays are fixed indynamically. Q4 size. However, ArrayList (from the
+Java.util package) provides a dynamic array implementation where elements
+can be added or removed dynamically.
+
+Q4. What is JVM?
+The Java Virtual Machine (JVM) is a part of the Java Runtime Environment
+(JRE). It is responsible for executing Java bytecode by converting it into
+machine code specific to the operating system.
+
+Q5. Why is Java platform-independent?
+Java achieves platform independence through bytecode. The Java compiler
+converts code into bytecode, which the JVM interprets for the underly
