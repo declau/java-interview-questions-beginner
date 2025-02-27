@@ -10,7 +10,7 @@ Q10. Why is the main method static in Java?
 
 Q11. What is the difference between the throw and throws keywords
 in Java?
-![img](throw-throws.png)
+    ![img](throw-throws.png)
 
 Q12. What do you mean by singleton class?
     A singleton class ensures that only one instance of the class exists throughout
