@@ -1,0 +1,24 @@
+Q9. What is function overriding?
+    Overriding allows a subclass to provide a specific implementation of a
+    method defined in its superclass. It enables dynamic method dispatch
+    (runtime polymorphism).
+
+Q10. Why is the main method static in Java?
+    The main method is static so that it can be called without creating an
+    instance of the class, allowing the program to start execution without object
+    instantiation.
+
+Q11. What is the difference between the throw and throws keywords
+in Java?
+![img](throw-throws.png)
+
+Q12. What do you mean by singleton class?
+    A singleton class ensures that only one instance of the class exists throughout
+    the application's lifecycle. It is implemented using a private constructor, a
+    static instance variable, and a public static method that returns the single
+    instance. The most common way to create a singleton class is using the lazy
+    initialization or eager initialization approach.
+Q13. Does every try block need a catch block?
+    No, a try block does not necessarily need a catch block. It can be followed by
+    either a catch block, a final block, or both. A catch block handles exceptions
+    that may arise in the try block, while a final block ensures that certain code
