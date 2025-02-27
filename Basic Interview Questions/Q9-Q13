@@ -22,3 +22,5 @@ Q13. Does every try block need a catch block?
     No, a try block does not necessarily need a catch block. It can be followed by
     either a catch block, a final block, or both. A catch block handles exceptions
     that may arise in the try block, while a final block ensures that certain code
+    (such as resource cleanup) is executed regardless of whether an exception
+    occurs.
