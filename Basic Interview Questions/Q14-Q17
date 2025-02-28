@@ -1,0 +1,32 @@
+Q14. What is the usage of the super keyword in Java?
+    The super keyword in Java is used to refer to the parent class. It can be used
+    to:
+    1.​ Call the constructor of the parent class.
+    2.​ Access the parent class’s methods and variables when they are
+    overridden in a subclass.
+    3.​ Differentiate between methods and attributes of the parent and child
+    class when they have the same name.
+
+Q15. What do you mean by the final keyword?
+    The final keyword is used to restrict modifications in Java. It can be applied
+    in three contexts:
+    1.​ Final variable: Its value cannot be changed once assigned.
+    2.​ Final method: Prevents method overriding in subclasses.
+    3.​ Final class: Prevents inheritance by other classes.
+
+Q16. How is an exception handled in Java?
+    Java handles exceptions using the try-catch-finally mechanism:
+    1.​ Try block: Contains the code that might generate an exception.
+    2.​ Catch block: Handles the exception and defines what should be done
+    when an error occurs.
+    3.​ Finally block: Executes regardless of whether an exception occurs or
+    not, often used for resource cleanup (e.g., closing files or database
+    connections).
+Q17. How can objects in a Java class be prevented from
+serialization?
+    Serialization converts an object into a byte stream for storage or
+    transmission. To prevent serialization:
+    1.​ Declare fields as transient to exclude them from serialization.
+    2.​ Implement writeObject() and readObject() methods to control
+    serialization.
+    3.​ Extend NotSerializableException to explicitly prevent serialization.
