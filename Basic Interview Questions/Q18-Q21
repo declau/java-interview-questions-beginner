@@ -23,3 +23,5 @@ Q21. What is a copy constructor in Java?
     A copy constructor creates a new object by copying the properties of an
     existing object. It takes an instance of the same class as an argument and
     initializes the new object with the same values.
+
+    
