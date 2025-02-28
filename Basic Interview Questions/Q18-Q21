@@ -1,0 +1,25 @@
+Q18. What is the difference between a constructor and a method in Java?
+Basic Interview Questions/contructor-method.png
+
+Q19. Why is reflection used in Java?
+    Reflection in Java allows a running program to inspect and manipulate its
+    methods, fields, and constructors at runtime. It is commonly used in
+    frameworks, debugging tools, and JavaBeans to dynamically access class
+    properties.
+
+Q20. What are the different types of ClassLoaders in Java?
+    Java provides three main types of ClassLoaders:
+        1.​ Bootstrap ClassLoader: Loads core Java classes from rt.jar and other
+        essential libraries. It is implemented in native code and does not have
+        a Java class representation.
+        2.​ Extension ClassLoader: Loads classes from the JRE/lib/ext directory or
+        any other specified extension directories. It is implemented as
+        sun.misc.Launcher$ExtClassLoader.
+        3.​ System (Application) ClassLoader: Loads application classes from the
+        classpath (defined by CLASSPATH, -cp, or -classpath options). It is a
+        child of the Extension ClassLoader.
+
+Q21. What is a copy constructor in Java?
+    A copy constructor creates a new object by copying the properties of an
+    existing object. It takes an instance of the same class as an argument and
+    initializes the new object with the same values.
