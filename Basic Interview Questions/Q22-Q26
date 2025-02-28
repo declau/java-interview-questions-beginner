@@ -1,0 +1,30 @@
+Q22. What is object cloning in Java?
+    Object cloning is a way to create an exact copy of an object. Java provides
+    the clone() method from the Cloneable interface to perform shallow copies. A
+    shallow copy copies field values but does not duplicate referenced objects,
+    while a deep copy creates new instances of referenced objects.
+
+Q23. Is Java a purely object-oriented language?
+    No, Java is not purely object-oriented because it supports primitive data
+    types like int, char, boolean, and double, which are not objects. A purely
+    object-oriented language would require every entity to be an object.
+
+Q24. What is a package in Java?
+    A package in Java is a collection of related classes and interfaces grouped to
+    organize code and prevent naming conflicts.
+        ●​ Built-in packages: java.lang, java.util, etc.
+        ●​ User-defined packages: Created by developers for organizing custom
+        classes.
+
+Q25. What is coercion in Java?
+    Coercion in Java refers to the automatic or explicit conversion of one data
+    type into another.
+        ●​ Implicit coercion: Automatically converts smaller data types to larger
+        ones (e.g., int to double).
+        ●​ Explicit coercion (casting): Converts larger data types to smaller ones
+        using type casting (e.g., (int) 3.14).
+    
+Q26. Can a private method be overridden in Java?
+    No, private methods cannot be overridden because they are not accessible
+    outside their class. If a subclass defines a method with the same name, it is
+    treated as a separate method rather than an override.
